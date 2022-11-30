@@ -1,0 +1,72 @@
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/SocialGolfers-lingeling-train/010-SocialGolfersProblem/Seed2-irace-5000 ========
+
+#runs: 4600
+#duplicates: 1469
+total time:  256.19  hours
+
+Experiment type: single solver
+Solver: lingeling
+
+#sat + graded instances across:
+	1 seeds: 161
+
+All types:
+	type                                #runs    time (hours)
+	no instance                            57             0.0
+	sat + too easy                       1427           21.94
+	sat + graded                          355           20.09
+	unsat + too easy                      485            2.76
+	unsat + graded                         40             1.2
+	solver timeout                        424           44.99
+	SR timeout                           1809          162.54
+
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/SocialGolfers-lingeling-train/010-SocialGolfersProblem/Seed1-irace-5000 ========
+
+#runs: 4979
+#duplicates: 2118
+total time:  205.51  hours
+
+Experiment type: single solver
+Solver: lingeling
+
+#sat + graded instances across:
+	1 seeds: 207
+
+All types:
+	type                                #runs    time (hours)
+	no instance                            23             0.0
+	sat + too easy                       1903           26.06
+	sat + graded                          510           29.05
+	unsat + too easy                      977            6.75
+	unsat + graded                         65            2.53
+	solver timeout                        213           22.06
+	SR timeout                           1287          118.71
+
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/SocialGolfers-lingeling-train/010-SocialGolfersProblem/Seed3-irace-5000 ========
+
+#runs: 4317
+#duplicates: 1309
+total time:  211.38  hours
+
+Experiment type: single solver
+Solver: lingeling
+
+#sat + graded instances across:
+	1 seeds: 176
+
+All types:
+	type                                #runs    time (hours)
+	no instance                            48             0.0
+	sat + too easy                       1508            18.4
+	sat + graded                          274           15.67
+	unsat + too easy                      630            3.15
+	unsat + graded                         37            1.05
+	solver timeout                        424           44.54
+	SR timeout                           1390          125.44
+

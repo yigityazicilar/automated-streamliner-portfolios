@@ -1,0 +1,48 @@
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/SocialGolfers-chuffed-test/010-SocialGolfersProblem/Seed2-irace-5000 ========
+
+#runs: 4556
+#duplicates: 1398
+total time:  571.08  hours
+
+Experiment type: single solver
+Solver: chuffed
+
+#sat + graded instances across:
+	1 seeds: 22
+
+All types:
+	type                                #runs    time (hours)
+	no instance                            12             0.0
+	sat + too easy                       2162           86.35
+	sat + graded                           39           11.92
+	unsat + too easy                      671            4.55
+	unsat + graded                          1            0.36
+	solver timeout                        343          352.46
+	SR timeout                           1328          115.44
+
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/SocialGolfers-chuffed-test/010-SocialGolfersProblem/Seed3-irace-5000 ========
+
+#runs: 4483
+#duplicates: 1127
+total time:  568.54  hours
+
+Experiment type: single solver
+Solver: chuffed
+
+#sat + graded instances across:
+	1 seeds: 15
+
+All types:
+	type                                #runs    time (hours)
+	no instance                            20             0.0
+	sat + too easy                       1486           72.57
+	sat + graded                           48            8.79
+	unsat + too easy                      969           16.41
+	unsat + graded                          6            2.62
+	solver timeout                        316          323.79
+	SR timeout                           1636          143.63
+

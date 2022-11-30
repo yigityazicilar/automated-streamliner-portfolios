@@ -1,0 +1,25 @@
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/BIBD-lingeling/028-BIBD/Seed7-irace-5000 ========
+
+#runs: 4716
+#duplicates: 2837
+total time:  298.25  hours
+
+#sat + graded instances across:
+	1 seeds: 271
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                            79            0.01
+	sat + too easy                       1026            8.71
+	sat + graded                         1423           52.44
+	unsat + too easy                      312            0.59
+	unsat + graded                         50            1.08
+	solver timeout                       1278          127.31
+	SR timeout                            541          104.54
+

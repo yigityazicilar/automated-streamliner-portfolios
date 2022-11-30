@@ -1,0 +1,83 @@
+
+
+======== ../experiments/test/001-CarSequencing/tnewModel-09 ========
+
+#runs: 9847
+#duplicates: 1
+total time:  609.61  hours
+
+#sat + graded instances across:
+	1 seeds: 1429
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                          1542          127.68
+		solver timeout                      1505
+		solver memout                          2
+	sat + too easy                       1898           99.25
+	sat + graded                         1429          110.98
+	unsat + too easy                     3003            51.3
+	unsat + graded                        422           23.83
+	solver timeout                       1405          180.33
+	SR timeout                            148           16.25
+
+
+
+======== ../experiments/test/001-CarSequencing/tnewModel-08 ========
+
+#runs: 9975
+#duplicates: 0
+total time:  443.77  hours
+
+#sat + graded instances across:
+	1 seeds: 1185
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                          1427          116.92
+		unsat                                  8
+		solver memout                          2
+		solver timeout                      1381
+	sat + too easy                       1927           62.84
+	sat + graded                         1185           81.42
+	unsat + too easy                     3893           47.12
+	unsat + graded                        362            9.38
+	solver timeout                       1173          125.24
+	SR timeout                              8            0.85
+
+
+
+======== ../experiments/test/001-CarSequencing/tnewModel-10 ========
+
+#runs: 9967
+#duplicates: 0
+total time:  546.93  hours
+
+#sat + graded instances across:
+	1 seeds: 3036
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                          1576          129.44
+		unsat                                  1
+		solver timeout                      1532
+		solver memout                          1
+	sat + too easy                        841           24.77
+	sat + graded                         3036          191.03
+	unsat + too easy                     2854           41.66
+	unsat + graded                        348           13.73
+	solver timeout                       1207          135.06
+	SR timeout                            105           11.24
+

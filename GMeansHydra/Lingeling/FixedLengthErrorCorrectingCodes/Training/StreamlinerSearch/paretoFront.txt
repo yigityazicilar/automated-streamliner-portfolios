@@ -1,0 +1,56 @@
+Reached the min iterations per round but have only done 298 successive iterations with no improvement at the moment
+Pareto Front found in round 0
+Pareto Front: --------Solutions:{ 
+7,0.8641975308641975,0.5291159242746467
+7-9,0.18518518518518517,0.742893082439038
+7-133,0.043209876543209874,0.8409819101600434
+7-5,0.6666666666666666,0.7348353359804677
+7-89,0.12962962962962962,0.7789496625991381
+} 
+--------
+Pareto Front found in round 1
+Pareto Front: --------Solutions:{ 
+6,0.9074074074074074,0.6742278514393147
+110,0.9135802469135802,0.6632044852678465
+8,0.9012345679012346,0.6829660768078581
+8-45,0.8765432098765432,0.6832708286235412
+} 
+--------
+Pareto Front found in round 2
+Pareto Front: --------Solutions:{ 
+78,0.9567901234567902,0.6696799302590114
+120,0.9506172839506173,0.6744215473302989
+5,0.9629629629629629,0.6644324792816828
+34-74,0.9444444444444444,0.678619519286408
+} 
+--------
+Pareto Front found in round 3
+Pareto Front: --------Solutions:{ 
+5-8,0.9691358024691358,0.6770100826640882
+13-3,0.9753086419753086,0.6673095273700002
+} 
+--------
+Pareto Front found in round 4
+Pareto Front: --------Solutions:{ 
+7-6,0.9753086419753086,0.6864516269078478
+} 
+--------
+Pareto Front found in round 5
+Pareto Front: --------Solutions:{ 
+8-86,0.9753086419753086,0.6883163131656886
+} 
+--------
+Pareto Front found in round 6
+Pareto Front: --------Solutions:{ 
+7-3,0.9753086419753086,0.6908999419979024
+} 
+--------
+Pareto Front found in round 7
+Pareto Front: --------Solutions:{ 
+31-78,0.9753086419753086,0.6919786205516935
+} 
+--------
+Pareto Front found in round 8
+Pareto Front: --------Solutions:{ 
+7-78,0.9753086419753086,0.6941179908194655
+}

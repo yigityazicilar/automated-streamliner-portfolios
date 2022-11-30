@@ -1,0 +1,10 @@
+conjure:
+  portfolio_size: 1
+
+solver: 'lingeling'
+
+executor:
+  num_cores: 30
+
+mcts:
+  num_iterations: 200

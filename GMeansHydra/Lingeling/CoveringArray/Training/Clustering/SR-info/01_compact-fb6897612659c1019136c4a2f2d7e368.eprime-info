@@ -1,0 +1,8 @@
+SAT:1
+SolverNodes:500016.0
+SolverTotalTime:24.6
+Seed:221638566
+SavileRowTotalTime:3
+SolverSatisfiable:1
+Model:model
+SavileRowTimeOut:0

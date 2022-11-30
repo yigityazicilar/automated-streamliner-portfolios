@@ -1,0 +1,75 @@
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/BACP-chuffed/030-BalancedAcademicCurriculumProblem/Seed5-irace-5000 ========
+
+#runs: 4968
+#duplicates: 0
+total time:  60.07  hours
+
+#sat + graded instances across:
+	1 seeds: 66
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                           844            0.65
+	sat + too easy                       2360            3.05
+	sat + graded                           66            1.72
+	unsat + too easy                      991            1.37
+	unsat + graded                        110            2.73
+	solver timeout                        597           50.55
+	SR timeout                              0             0.0
+
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/BACP-chuffed/030-BalancedAcademicCurriculumProblem/Seed7-irace-5000 ========
+
+#runs: 4997
+#duplicates: 0
+total time:  75.98  hours
+
+#sat + graded instances across:
+	1 seeds: 125
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                           655            0.53
+	sat + too easy                       2307             3.1
+	sat + graded                          125            3.09
+	unsat + too easy                     1075            2.13
+	unsat + graded                         54            1.01
+	solver timeout                        781           66.13
+	SR timeout                              0             0.0
+
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/BACP-chuffed/030-BalancedAcademicCurriculumProblem/Seed6-irace-5000 ========
+
+#runs: 4979
+#duplicates: 0
+total time:  35.99  hours
+
+#sat + graded instances across:
+	1 seeds: 43
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                           843            0.85
+	sat + too easy                       2635            3.24
+	sat + graded                           43            1.13
+	unsat + too easy                     1078            2.65
+	unsat + graded                         60            1.04
+	solver timeout                        320           27.08
+	SR timeout                              0             0.0
+

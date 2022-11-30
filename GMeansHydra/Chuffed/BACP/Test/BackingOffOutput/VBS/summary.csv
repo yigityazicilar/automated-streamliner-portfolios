@@ -1,0 +1,2 @@
+,Problem,Solver,Method,NumberSAT,NumberUNSAT,NumberSkipped,TotalInstances,UNSATAveragePercentagePortfolioUsed,SATMeanPortfolioSize,UNSATMeanPortfolioSize,SATAverageSolvingTime,UNSATAverageSolvingTime,Type,OverallAverageReductionPercentage,SATAverageReductionPercentage
+0,BACP,Chuffed,VBS,6,0,0,31,,1.0,,13.665833333333333,,Hard,0.994084651768483,0.994084651768483

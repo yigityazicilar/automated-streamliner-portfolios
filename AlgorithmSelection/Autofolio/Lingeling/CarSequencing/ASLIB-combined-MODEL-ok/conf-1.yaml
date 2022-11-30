@@ -1,0 +1,16 @@
+autofolio_base_dir: /circa/home/jlps/AIJJournal/AutoFolio
+autofolio_wall_time_seconds: 3600
+base_dir: /circa/home/jlps/AIJJournal/AIJ-streamliner/GMeansHydra/Lingeling/CarSequencing
+distribution_type: combined
+encoding_type: ok
+feature_dir: /circa/home/jlps/AIJJournal/AIJ-streamliner/GMeansHydra/Lingeling/CarSequencing/Test/InstanceFeatures
+include_original_model: false
+include_sr_time: true
+model_num: 1
+num_cross_folds: 10
+output_dir: /circa/home/jlps/AIJJournal/AIJ-streamliner/AlgorithmSelection/Autofolio/Lingeling/CarSequencing/ASLIB-combined-MODEL-ok
+problem: CarSequencing
+server: local
+smac_runcount_limit: 100000
+solver: Lingeling
+tuning_seed: 60815

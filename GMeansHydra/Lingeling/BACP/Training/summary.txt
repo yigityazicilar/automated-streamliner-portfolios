@@ -1,0 +1,75 @@
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/BACP-lingeling/030-BalancedAcademicCurriculumProblem/Seed5-irace-5000 ========
+
+#runs: 4965
+#duplicates: 0
+total time:  94.04  hours
+
+#sat + graded instances across:
+	1 seeds: 50
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                           827            0.73
+	sat + too easy                       2157            6.75
+	sat + graded                           50            0.68
+	unsat + too easy                      953             3.5
+	unsat + graded                         24            0.44
+	solver timeout                        954           81.95
+	SR timeout                              0             0.0
+
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/BACP-lingeling/030-BalancedAcademicCurriculumProblem/Seed7-irace-5000 ========
+
+#runs: 4995
+#duplicates: 0
+total time:  109.49  hours
+
+#sat + graded instances across:
+	1 seeds: 34
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                           519            0.45
+	sat + too easy                       1462            5.81
+	sat + graded                           34            0.65
+	unsat + too easy                     1863            8.71
+	unsat + graded                         55            1.39
+	solver timeout                       1062           92.48
+	SR timeout                              0             0.0
+
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/BACP-lingeling/030-BalancedAcademicCurriculumProblem/Seed6-irace-5000 ========
+
+#runs: 4963
+#duplicates: 0
+total time:  108.64  hours
+
+#sat + graded instances across:
+	1 seeds: 48
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                           621            0.58
+	sat + too easy                       2284           12.21
+	sat + graded                           48            0.59
+	unsat + too easy                      951            3.94
+	unsat + graded                         12            0.15
+	solver timeout                       1047           91.16
+	SR timeout                              0             0.0
+

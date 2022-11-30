@@ -1,0 +1,276 @@
+/EssenceExamples/EFPA/StreamlinerSearch/BaseModelResults.csv
+New Streamliner Combo 49
+Node  {'visited_count': 0, 'last_visited': None, 'score': 0}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 1, 'last_visited': None, 'score': 1}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 1, 'last_visited': None, 'score': 1}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 2, 'last_visited': None, 'score': 2}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 2, 'last_visited': None, 'score': 2}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 3, 'last_visited': None, 'score': 3}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 3, 'last_visited': None, 'score': 3}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 4, 'last_visited': None, 'score': 4}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 4, 'last_visited': None, 'score': 4}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 5, 'last_visited': None, 'score': 5}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 5, 'last_visited': None, 'score': 5}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 6, 'last_visited': None, 'score': 6}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 6, 'last_visited': None, 'score': 6}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 7, 'last_visited': None, 'score': 7}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 7, 'last_visited': None, 'score': 7}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 8, 'last_visited': None, 'score': 8}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 8, 'last_visited': None, 'score': 8}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 9, 'last_visited': None, 'score': 9}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 9, 'last_visited': None, 'score': 9}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 10, 'last_visited': None, 'score': 10}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 10, 'last_visited': None, 'score': 10}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 11, 'last_visited': None, 'score': 11}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 11, 'last_visited': None, 'score': 11}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 12, 'last_visited': None, 'score': 12}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 12, 'last_visited': None, 'score': 12}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 13, 'last_visited': None, 'score': 13}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 13, 'last_visited': None, 'score': 13}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 14, 'last_visited': None, 'score': 14}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 14, 'last_visited': None, 'score': 14}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 15, 'last_visited': None, 'score': 15}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 15, 'last_visited': None, 'score': 15}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 16, 'last_visited': None, 'score': 16}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 16, 'last_visited': None, 'score': 16}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 17, 'last_visited': None, 'score': 17}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 17, 'last_visited': None, 'score': 17}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 18, 'last_visited': None, 'score': 18}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 18, 'last_visited': None, 'score': 18}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 19, 'last_visited': None, 'score': 19}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 19, 'last_visited': None, 'score': 19}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 20, 'last_visited': None, 'score': 20}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 20, 'last_visited': None, 'score': 20}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 21, 'last_visited': None, 'score': 21}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 21, 'last_visited': None, 'score': 21}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 22, 'last_visited': None, 'score': 22}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 22, 'last_visited': None, 'score': 22}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 23, 'last_visited': None, 'score': 23}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 23, 'last_visited': None, 'score': 23}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 24, 'last_visited': None, 'score': 24}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 24, 'last_visited': None, 'score': 24}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 25, 'last_visited': None, 'score': 25}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 25, 'last_visited': None, 'score': 25}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 26, 'last_visited': None, 'score': 26}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 26, 'last_visited': None, 'score': 26}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 27, 'last_visited': None, 'score': 27}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 27, 'last_visited': None, 'score': 27}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 28, 'last_visited': None, 'score': 28}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 28, 'last_visited': None, 'score': 28}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 29, 'last_visited': None, 'score': 29}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 29, 'last_visited': None, 'score': 29}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 30, 'last_visited': None, 'score': 30}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 30, 'last_visited': None, 'score': 30}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 31, 'last_visited': None, 'score': 31}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 31, 'last_visited': None, 'score': 31}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 32, 'last_visited': None, 'score': 32}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 32, 'last_visited': None, 'score': 32}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 33, 'last_visited': None, 'score': 33}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 33, 'last_visited': None, 'score': 33}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 34, 'last_visited': None, 'score': 34}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 34, 'last_visited': None, 'score': 34}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 35, 'last_visited': None, 'score': 35}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 35, 'last_visited': None, 'score': 35}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 36, 'last_visited': None, 'score': 36}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 36, 'last_visited': None, 'score': 36}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 37, 'last_visited': None, 'score': 37}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 37, 'last_visited': None, 'score': 37}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 38, 'last_visited': None, 'score': 38}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 38, 'last_visited': None, 'score': 38}
+Node 49 {'visited_count': 0, 'last_visited': None, 'score': 0}
+{'49': {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]}}
+('49', {'AvgApplic': 1.0, 'OverallSolvingTimeReduction': 0.3009454774325002, 'MeanReduction': 0.41455256360882226, 'MedianReduction': 0.22616750178954897, 'StandardDeviation': 0.3392010843746165, 'Quantiles': [0.17642661144020738, 0.22616750178954897, 0.5584859848678004]})
+Node  {'visited_count': 39, 'last_visited': None, 'score': 39}
+Node 49 {'visited_count': 1, 'last_visited': None, 'score': 1}
+New Streamliner Combo 49
+Node  {'visited_count': 39, 'last_visited': None, 'score': 39}

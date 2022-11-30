@@ -1,0 +1,2 @@
+,Problem,Solver,Method,NumberUNSAT,NumberSkipped,TotalInstances,UNSATAveragePercentagePortfolioUsed,SATMeanPortfolioSize,UNSATMeanPortfolioSize,SATAverageSolvingTime,UNSATAverageSolvingTime,ReductionQuartile0.25,ReductionQuartile0.5,ReductionQuartile0.75,OverallAverageReductionPercentage,SATAverageReductionPercentage
+0,FixedErrorCorrectingCodes,Chuffed,ReducFirst,76,0,286,25.0,7.0,7.0,81.79380952380954,3552.0801052631577,80.4431284936746,90.82984453663997,95.82767873368954,-55.28856170912113,85.57752932592221

@@ -1,0 +1,2 @@
+,Problem,Solver,Method,NumberSAT,NumberUNSAT,NumberSkipped,TotalInstances,UNSATAveragePercentagePortfolioUsed,SATMeanPortfolioSize,UNSATMeanPortfolioSize,SATAverageSolvingTime,UNSATAverageSolvingTime,ReductionQuartile0.25,ReductionQuartile0.5,ReductionQuartile0.75,OverallAverageReductionPercentage,SATAverageReductionPercentage
+0,Transshipment,Chuffed,VBS,321,1,0,322,100.0,1.0,1.0,32.86258566978193,3601.008,0.9927169082125604,0.9964497915877226,0.9982480446927374,0.9647503468989881,0.9798206342973766

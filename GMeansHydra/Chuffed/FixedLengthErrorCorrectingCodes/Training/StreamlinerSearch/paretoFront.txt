@@ -1,0 +1,19 @@
+Reached the min iterations per round but have only done 28 successive iterations with no improvement at the moment
+Pareto Front found in round 0
+Pareto Front: --------Solutions:{ 
+7,0.84375,0.5925542713173125
+7-6,0.40625,0.7384394404228891
+} 
+--------
+Pareto Front found in round 1
+Pareto Front: --------Solutions:{ 
+8,0.953125,0.6758513642778875
+6-8,0.890625,0.69110231236654
+} 
+--------
+Pareto Front found in round 2
+Pareto Front: --------Solutions:{ 
+110,0.9609375,0.6971765661958811
+110-7,0.953125,0.7079193745867
+5-3,0.96875,0.6914600494194063
+}

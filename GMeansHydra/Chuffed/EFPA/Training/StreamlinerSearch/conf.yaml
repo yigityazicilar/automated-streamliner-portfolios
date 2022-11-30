@@ -1,0 +1,10 @@
+conjure:
+  portfolio_size: 1
+
+solver: 'chuffed'
+
+executor:
+  number_of_cores: 1
+
+mcts:
+  num_iterations: 200

@@ -1,0 +1,202 @@
+Pareto Front found in round 0
+Pareto Front: --------Solutions:{ 
+7,0.9607843137254902,0.6110645428682172,01_compact
+16,0.9411764705882353,0.6590021315569307,01_compact
+8,0.954248366013072,0.6517241329427659,01_compact
+7-33,0.8888888888888888,0.680097570895799,01_compact
+7-45,0.42483660130718953,0.7917133171529701,01_compact
+7-34,0.9084967320261438,0.674493996528388,01_compact
+7-42,0.8823529411764706,0.6934626808224122,01_compact
+16-50,0.013071895424836602,0.8135979462014831,01_compact
+15-41,0.869281045751634,0.6940083450731069,01_compact
+15-45,0.8496732026143791,0.7737578492756071,01_compact
+15-46,0.6013071895424836,0.7752736374940996,01_compact
+15-33,0.8627450980392157,0.716562416369915,01_compact
+} 
+--------
+Pareto Front found in round 1
+Pareto Front: --------Solutions:{ 
+46-36,1.0,0.8079039661603068,01_compact
+46-8,0.9934640522875817,0.8115206382192065,01_compact
+} 
+--------
+Pareto Front found in round 2
+Pareto Front: --------Solutions:{ 
+48,1.0,0.8114660570877352,01_compact
+} 
+--------
+Pareto Front found in round 3
+Pareto Front: --------Solutions:{ 
+16-45,1.0,0.8129782240378248,01_compact
+} 
+--------
+Pareto Front found in round 4
+Pareto Front: --------Solutions:{ 
+13-16,1.0,0.8140718887740138,01_compact
+} 
+--------
+Pareto Front found in round 5
+Pareto Front: --------Solutions:{ 
+14-7,1.0,0.8150717269853791,01_compact
+} 
+--------
+Pareto Front found in round 6
+Pareto Front: --------Solutions:{ 
+16-14,1.0,0.8159712173880231,01_compact
+} 
+--------
+Pareto Front found in round 7
+Pareto Front: --------Solutions:{ 
+13-7,1.0,0.8166119087554944,01_compact
+} 
+--------
+Pareto Front found in round 8
+Pareto Front: --------Solutions:{ 
+15-38,1.0,0.8172031636698402,01_compact
+} 
+--------
+Pareto Front found in round 9
+Pareto Front: --------Solutions:{ 
+15-37,1.0,0.8177723496320889,01_compact
+} 
+--------
+Pareto Front found in round 10
+Pareto Front: --------Solutions:{ 
+6-8,1.0,0.818337812886275,01_compact
+} 
+--------
+Pareto Front found in round 11
+Pareto Front: --------Solutions:{ 
+15,1.0,0.8188218082660248,01_compact
+} 
+--------
+Pareto Front found in round 12
+Pareto Front: --------Solutions:{ 
+16-41,1.0,0.8192842261264489,01_compact
+} 
+--------
+Pareto Front found in round 13
+Pareto Front: --------Solutions:{ 
+8-45,1.0,0.8196744977718984,01_compact
+} 
+--------
+Pareto Front found in round 14
+Pareto Front: --------Solutions:{ 
+8-14,1.0,0.8200503091797536,01_compact
+} 
+--------
+Pareto Front found in round 15
+Pareto Front: --------Solutions:{ 
+46-16,1.0,0.8203493777400713,01_compact
+} 
+--------
+Pareto Front found in round 16
+Pareto Front: --------Solutions:{ 
+7-6,1.0,0.8206263228953862,01_compact
+} 
+--------
+Pareto Front found in round 17
+Pareto Front: --------Solutions:{ 
+46-7,1.0,0.8208862653424603,01_compact
+} 
+--------
+Pareto Front found in round 18
+Pareto Front: --------Solutions:{ 
+14-15,1.0,0.8210732622976183,01_compact
+} 
+--------
+Pareto Front found in round 19
+Pareto Front: --------Solutions:{ 
+33-8,1.0,0.8212286477180917,01_compact
+} 
+--------
+Pareto Front found in round 20
+Pareto Front: --------Solutions:{ 
+5-8,1.0,0.8213441238260849,01_compact
+} 
+--------
+Pareto Front found in round 21
+Pareto Front: --------Solutions:{ 
+45,1.0,0.8214585776962514,01_compact
+} 
+--------
+Pareto Front found in round 22
+Pareto Front: --------Solutions:{ 
+34-16,1.0,0.8215674391746054,01_compact
+} 
+--------
+Pareto Front found in round 23
+Pareto Front: --------Solutions:{ 
+7-41,1.0,0.8216642653336134,01_compact
+} 
+--------
+Pareto Front found in round 24
+Pareto Front: --------Solutions:{ 
+37-16,1.0,0.8217570639688379,01_compact
+} 
+--------
+Pareto Front found in round 25
+Pareto Front: --------Solutions:{ 
+47-38,1.0,0.8218494923102113,01_compact
+} 
+--------
+Pareto Front found in round 26
+Pareto Front: --------Solutions:{ 
+34-48,1.0,0.8219167837279197,01_compact
+} 
+--------
+Pareto Front found in round 27
+Pareto Front: --------Solutions:{ 
+15-34,1.0,0.8219702151393138,01_compact
+} 
+--------
+Pareto Front found in round 28
+Pareto Front: --------Solutions:{ 
+13-15,1.0,0.8220098577459677,01_compact
+} 
+--------
+Pareto Front found in round 29
+Pareto Front: --------Solutions:{ 
+37,1.0,0.8220418399635118,01_compact
+} 
+--------
+Pareto Front found in round 30
+Pareto Front: --------Solutions:{ 
+47-13,1.0,0.822072886865031,01_compact
+} 
+--------
+Pareto Front found in round 31
+Pareto Front: --------Solutions:{ 
+16-6,1.0,0.8220981367662165,01_compact
+} 
+--------
+Pareto Front found in round 32
+Pareto Front: --------Solutions:{ 
+8-37,1.0,0.8221118076488315,01_compact
+} 
+--------
+Pareto Front found in round 33
+Pareto Front: --------Solutions:{ 
+38-16,1.0,0.8221246666235585,01_compact
+} 
+--------
+Pareto Front found in round 34
+Pareto Front: --------Solutions:{ 
+33-16,1.0,0.8221373244267818,01_compact
+} 
+--------
+Pareto Front found in round 35
+Pareto Front: --------Solutions:{ 
+46-40,1.0,0.8221466740658857,01_compact
+} 
+--------
+Pareto Front found in round 36
+Pareto Front: --------Solutions:{ 
+43-46,1.0,0.8221550938888433,01_compact
+} 
+--------
+Pareto Front found in round 37
+Pareto Front: --------Solutions:{ 
+15-42,1.0,0.8221576136913412,01_compact
+} 
+--------

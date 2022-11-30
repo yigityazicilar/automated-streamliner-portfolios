@@ -1,0 +1,72 @@
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/CoveringArray-lingeling-train/045-CoveringArray/Seed2-irace-5000 ========
+
+#runs: 3498
+#duplicates: 198
+total time:  325.77  hours
+
+Experiment type: single solver
+Solver: lingeling
+
+#sat + graded instances across:
+	1 seeds: 452
+
+All types:
+	type                                #runs    time (hours)
+	no instance                            54            0.01
+	sat + too easy                        781            1.46
+	sat + graded                          507           11.93
+	unsat + too easy                       26             0.3
+	unsat + graded                          8            0.26
+	solver timeout                        551           49.45
+	SR timeout                           1534          248.48
+
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/CoveringArray-lingeling-train/045-CoveringArray/Seed1-irace-5000 ========
+
+#runs: 4972
+#duplicates: 1108
+total time:  250.7  hours
+
+Experiment type: single solver
+Solver: lingeling
+
+#sat + graded instances across:
+	1 seeds: 165
+
+All types:
+	type                                #runs    time (hours)
+	no instance                            53            0.01
+	sat + too easy                       3123            7.53
+	sat + graded                          168            3.48
+	unsat + too easy                        1            0.07
+	unsat + graded                          0             0.0
+	solver timeout                        231           20.95
+	SR timeout                           1361           205.6
+
+
+
+======== /lustre/home/dc014/jlps/AIJJournal/instance-generation/experiments/StreamlinerExperiments/CoveringArray-lingeling-train/045-CoveringArray/Seed3-irace-5000 ========
+
+#runs: 4719
+#duplicates: 574
+total time:  297.24  hours
+
+Experiment type: single solver
+Solver: lingeling
+
+#sat + graded instances across:
+	1 seeds: 1079
+
+All types:
+	type                                #runs    time (hours)
+	no instance                           109            0.02
+	sat + too easy                       1132            2.24
+	sat + graded                         1309           23.53
+	unsat + too easy                        0             0.0
+	unsat + graded                          0             0.0
+	solver timeout                        691           59.76
+	SR timeout                           1452          201.99
+

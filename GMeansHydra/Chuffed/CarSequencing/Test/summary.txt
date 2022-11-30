@@ -1,0 +1,56 @@
+
+
+======== ../experiments/test/001-CarSequencing/tnewModel-06 ========
+
+#runs: 7657
+#duplicates: 0
+total time:  1735.93  hours
+
+#sat + graded instances across:
+	1 seeds: 34
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                          1093           91.25
+		solver memout                          2
+		solver timeout                      1085
+		unsat                                  1
+	sat + too easy                       1720           56.87
+	sat + graded                           34           13.66
+	unsat + too easy                     3244           69.06
+	unsat + graded                        122           30.89
+	solver timeout                       1434         1473.16
+	SR timeout                             10            1.04
+
+
+
+======== ../experiments/test/001-CarSequencing/tnewModel-07 ========
+
+#runs: 8658
+#duplicates: 0
+total time:  1836.54  hours
+
+#sat + graded instances across:
+	1 seeds: 47
+	2 seeds: 0
+	3 seeds: 0
+	4 seeds: 0
+	5 seeds: 0
+
+All types:
+	type                                #runs    time (hours)
+	no instance                          1746          143.03
+		solver timeout                      1697
+		solver memout                          3
+		unsat                                  6
+	sat + too easy                       2133           77.72
+	sat + graded                           47           17.77
+	unsat + too easy                     3148           59.77
+	unsat + graded                        127           45.94
+	solver timeout                       1449         1491.43
+	SR timeout                              8            0.88
+

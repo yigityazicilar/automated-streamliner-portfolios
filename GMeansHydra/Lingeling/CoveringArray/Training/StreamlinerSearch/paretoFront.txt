@@ -1,0 +1,185 @@
+Pareto Front found in round 0
+Pareto Front: --------Solutions:{ 
+5,0.2777777777777778,0.7266573672987005 Dominating Model: 01_compact
+56,0.5185185185185185,0.6166121100258601 Dominating Model: 01_compact
+43,0.3888888888888889,0.6779752449887537 Dominating Model: 01_compact
+23,0.5,0.6661112163659941 Dominating Model: 01_compact
+53,0.07407407407407407,0.8925603217615674 Dominating Model: 01_compact
+23-22,0.018518518518518517,0.9948921679909194 Dominating Model: 01_compact
+56-13,0.5370370370370371,0.5620914594944998 Dominating Model: 01_compact
+29-16,0.09259259259259259,0.8476748608118907 Dominating Model: 01_compact
+16-61,0.1111111111111111,0.7375214695550342 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 1
+Pareto Front: --------Solutions:{ 
+7-6,0.8518518518518519,0.716503392815238 Dominating Model: 01_compact
+24-46,0.8333333333333334,0.7258938172260707 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 2
+Pareto Front: --------Solutions:{ 
+55,0.8703703703703703,0.7347664564553824 Dominating Model: 01_compact
+55-13,0.8518518518518519,0.74060518153214 Dominating Model: 01_compact
+13-35,0.8888888888888888,0.7133915287439988 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 3
+Pareto Front: --------Solutions:{ 
+14-16,0.9074074074074074,0.733783354007832 Dominating Model: 01_compact
+64-13,0.9259259259259259,0.7226256527727704 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 4
+Pareto Front: --------Solutions:{ 
+39-6,0.9259259259259259,0.7325367930516203 Dominating Model: 01_compact
+43-5,0.9444444444444444,0.7236426781639426 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 5
+Pareto Front: --------Solutions:{ 
+51-54,0.9629629629629629,0.7216953532821816 Dominating Model: 01_compact
+24-6,0.9444444444444444,0.7349436974249616 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 6
+Pareto Front: --------Solutions:{ 
+35,0.9629629629629629,0.73215186255248 Dominating Model: 01_compact
+24,0.9814814814814815,0.7173060055292014 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 7
+Pareto Front: --------Solutions:{ 
+63-13,0.9814814814814815,0.7268263685238968 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 8
+Pareto Front: --------Solutions:{ 
+8-38,0.9814814814814815,0.7299304369659653 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 9
+Pareto Front: --------Solutions:{ 
+52,0.9814814814814815,0.7322756027265453 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 10
+Pareto Front: --------Solutions:{ 
+56-5,0.9814814814814815,0.734402421916531 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 11
+Pareto Front: --------Solutions:{ 
+15-14,0.9814814814814815,0.7360694474154862 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 12
+Pareto Front: --------Solutions:{ 
+16-5,0.9814814814814815,0.7376205046868035 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 13
+Pareto Front: --------Solutions:{ 
+8-41,0.9814814814814815,0.7391388156461451 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 14
+Pareto Front: --------Solutions:{ 
+44,0.9814814814814815,0.7404051875575237 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 15
+Pareto Front: --------Solutions:{ 
+14,0.9814814814814815,0.7415365458448876 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 16
+Pareto Front: --------Solutions:{ 
+39,0.9814814814814815,0.7424205311708535 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 17
+Pareto Front: --------Solutions:{ 
+54-15,0.9814814814814815,0.7432733187201552 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 18
+Pareto Front: --------Solutions:{ 
+15,0.9814814814814815,0.7439790410370307 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 19
+Pareto Front: --------Solutions:{ 
+14-40,0.9814814814814815,0.7446162317340467 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 20
+Pareto Front: --------Solutions:{ 
+8-30,0.9814814814814815,0.7451819865924665 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 21
+Pareto Front: --------Solutions:{ 
+14-35,0.9814814814814815,0.7457051872726274 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 22
+Pareto Front: --------Solutions:{ 
+55-33,0.9814814814814815,0.7461958425204082 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 23
+Pareto Front: --------Solutions:{ 
+56-34,0.9814814814814815,0.7466001551888718 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 24
+Pareto Front: --------Solutions:{ 
+16-6,0.9814814814814815,0.7469044765522315 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 25
+Pareto Front: --------Solutions:{ 
+23-5,0.9814814814814815,0.7471779247338011 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 26
+Pareto Front: --------Solutions:{ 
+63,0.9814814814814815,0.7473947974295286 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 27
+Pareto Front: --------Solutions:{ 
+8-5,0.9814814814814815,0.7475834766748116 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 28
+Pareto Front: --------Solutions:{ 
+14-56,0.9814814814814815,0.7476894762508133 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 29
+Pareto Front: --------Solutions:{ 
+16,0.9814814814814815,0.7477795379430726 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 30
+Pareto Front: --------Solutions:{ 
+40-6,0.9814814814814815,0.7478337561170045 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 31
+Pareto Front: --------Solutions:{ 
+63-14,0.9814814814814815,0.7478878189380026 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 32
+Pareto Front: --------Solutions:{ 
+36,0.9814814814814815,0.7479382679340676 Dominating Model: 01_compact
+} 
+--------
+Pareto Front found in round 33
+Pareto Front: --------Solutions:{ 
+38-7,0.9814814814814815,0.7479489761772732 Dominating Model: 01_compact
+} 
+--------

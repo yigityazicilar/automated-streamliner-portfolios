@@ -1,0 +1,14 @@
+savilerowOptions: -preprocess None -timelimit 900000 -chuffed-bin /lustre/home/dc014/jlps/Software/ChuffedBin/fzn-chuffed
+solverTimeLimit: 3600000 
+solverNodeLimit: 0
+solverMinTime: 300000 
+solverMinNode: 0
+solverTimeLimitPrefix: --time-out 
+solverNodeLimitPrefix: 
+solverRandomSeedArg: --rnd-seed 
+solverFlags: -f
+solver: chuffed 
+nEvaluations: 1
+essenceModel: ./model.essence
+eprimeModel: ./conjure-output/model000001.eprime
+scoringScheme: new-01

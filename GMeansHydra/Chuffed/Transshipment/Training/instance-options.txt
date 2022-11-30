@@ -1,0 +1,14 @@
+savilerowOptions: -preprocess None -timelimit 300000 -chuffed-bin ../ChuffedBin/fzn-chuffed 
+solverTimeLimit: 300000
+solverNodeLimit: 0
+solverMinTime: 10000
+solverMinNode: 0
+solverTimeLimitPrefix: --time-out 
+solverNodeLimitPrefix: 
+solverRandomSeedArg: --rnd-seed 
+solverFlags: -f
+solver: chuffed 
+nEvaluations: 1
+essenceModel: ./model.essence
+eprimeModel: ./models/model.eprime
+scoringScheme: new-01
