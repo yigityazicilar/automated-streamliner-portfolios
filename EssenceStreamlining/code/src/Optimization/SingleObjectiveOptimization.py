@@ -1,0 +1,2 @@
+class SingleObjectiveOptimization:
+    pass
