@@ -1,0 +1,21 @@
+language ESSENCE' 1.0
+
+letting n_containers be 27
+letting deck_width be 4
+letting deck_length be 91
+letting n_classes be 7
+letting width_Function1D be
+        [4, 3, 1, 2, 4, 3, 4, 4, 1, 2, 1, 1, 1, 1, 3, 4, 3, 3, 2, 3, 4, 1, 3, 3, 2, 4, 4; int(1..27)]
+letting length_Function1D be
+        [1, 1, 1, 1, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 2, 1, 1, 1, 1, 1, 1, 25, 1; int(1..27)]
+letting class_Function1D be
+        [7, 1, 6, 5, 1, 7, 6, 3, 4, 4, 1, 2, 2, 3, 3, 7, 5, 6, 7, 4, 2, 7, 4, 5, 4, 5, 3; int(1..27)]
+letting separation_FunctionAsRelationR3_RelationAsSetR3_ExplicitR3_1_Explicit be [[1, 2; int(1..2)]; int(1)]
+$ Visualisation for separation_FunctionAsRelationR3_RelationAsSetR3_ExplicitR3_1_Explicit
+$ 1 2
+
+letting separation_FunctionAsRelationR3_RelationAsSetR3_ExplicitR3_2 be [75; int(1)]
+letting fin1 be 27
+letting fin2 be 27
+letting fin3 be 27
+letting fin4 be 1

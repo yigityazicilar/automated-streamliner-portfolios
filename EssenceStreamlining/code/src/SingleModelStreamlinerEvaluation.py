@@ -12,8 +12,10 @@ import time
 
 class SingleModelStreamlinerEvaluation:
 
-    def __init__(self, model, training_instances, solver, training_stats, num_cores, total_time):
+    def __init__(self, model, working_directory, instance_dir, training_instances, solver, training_stats, num_cores, total_time):
         self.model = model
+        self.working_directory = working_directory
+        self.instance_dir = instance_dir
         self.training_instances = training_instances
         self.solver = SolverFactory.get_solver(solver)
         self.training_stats = training_stats
@@ -25,7 +27,7 @@ class SingleModelStreamlinerEvaluation:
 
         # if not total_time:
         total_time = self.training_stats[self.training_stats['Instance'] == training_instance]['TotalTime'] * 1.5
-        return Pipeline.Pipeline(eprime_model, training_instance, self.solver, Event(), total_time, stats)
+        return Pipeline.Pipeline(eprime_model, self.working_directory, self.instance_dir, training_instance, self.solver, Event(), total_time, stats)
 
     def _default_callback(self, instance, data):
         logging.info(instance, data)

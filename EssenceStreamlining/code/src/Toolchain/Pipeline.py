@@ -7,23 +7,21 @@ from Toolchain.StageTimeout import StageTimeout
 import threading
 import subprocess
 from subprocess import TimeoutExpired
-
+import sys
 
 class Stage:
 
     def __init__(self, name,
                  stage_callable,
+                 parse_std_out_callable,
+                 parse_std_err_callable,
                  args):
         logging.info(f"Stagle callable {stage_callable}")
         self.name = name
         self.stage_callable = stage_callable
         self.args = args
-
-    def parse_std_out(self, outs):
-        pass
-
-    def parse_std_err(self, outs):
-        pass
+        self.parse_std_out = parse_std_out_callable
+        self.parse_std_err = parse_std_err_callable
 
     def get_name(self):
         return self.name
@@ -31,8 +29,10 @@ class Stage:
 
 class Pipeline:
 
-    def __init__(self, eprime_model, essence_param_file, solver, event, total_time, stats):
+    def __init__(self, eprime_model, working_directory, instance_dir, essence_param_file, solver, event, total_time, stats):
         self.eprime_model = eprime_model
+        self.working_directory = working_directory
+        self.instance_dir = instance_dir
         raw_eprime_model = eprime_model.split(".")[0]
         self.total_time = total_time
         self.essence_param_file = essence_param_file
@@ -41,10 +41,13 @@ class Pipeline:
         self.output_eprime_param = f"{raw_eprime_model}-{self.raw_instance}.eprime-param"
         self.solver = solver
         self.conjure_stage = Stage('conjure', Conjure.translate_essence_param,
-                                   (eprime_model, essence_param_file, self.output_eprime_param,))
+                                   Conjure.parse_std_out, Conjure.parse_std_err,
+                                   (self.instance_dir, eprime_model, essence_param_file, self.output_eprime_param,))
         self.savilerow_stage = Stage('savilerow', savilerow.formulate,
+                                     savilerow.parse_std_out, savilerow.parse_std_err,
                                      (self.eprime_model, self.output_eprime_param, solver, self.raw_instance,))
         self.solver_stage = Stage(solver.get_solver_name(), solver.execute,
+                                  solver.parse_std_out, solver.parse_std_err,
                                   (solver.get_savilerow_output_file(self.eprime_model, self.raw_instance), stats,))
 
     def _run_stage(self, stage, runsolver_command, instance_stats):
@@ -55,11 +58,11 @@ class Pipeline:
                 outs, errs = process.communicate(timeout=5)
 
                 if outs:
-                    stage.parse_std_out(outs)
-                    # logging.info(outs)
+                    stage.parse_std_out(outs, instance_stats)
+                    logging.debug(outs)
                 if errs:
-                    stage.parse_std_err(errs)
-                    # logging.info(errs)
+                    stage.parse_std_err(errs, instance_stats)
+                    logging.debug(errs)
 
                 return outs, errs
             except TimeoutExpired:
@@ -108,15 +111,8 @@ class Pipeline:
             # Savilerow
             self._call(self.savilerow_stage, instance_stats)
             # Solver
-            outs, errs = self._call(self.solver_stage, instance_stats)
+            self._call(self.solver_stage, instance_stats)
 
-            solver_output = self.solver.parse_output(outs)
-            instance_stats.add_solver_output(solver_output)
-            instance_stats.set_solver_name(self.solver_stage.get_name())
-            if not solver_output['satisfiable'] or instance_stats.timeout():
-                # logging.debug("Solver is unsat")
-                instance_stats.set_satisfiable(False)
-            # logging.info("Returning instance_stats")
         except StageTimeout as e:
             instance_stats.set_satisfiable(False)
         return instance_stats

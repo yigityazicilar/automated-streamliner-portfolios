@@ -11,7 +11,7 @@ class InstanceStats:
         self._stages = {}
         self._killed = False
         self._solver_stats = {}
-        self._satisfiable = True
+        self._satisfiable = False
 
     def get_stages(self) -> Dict[str, Toolchain.runsolver.RunsolverStats]:
         return self._stages

@@ -19,26 +19,23 @@ logging.getLogger().setLevel(logging.DEBUG)
 parser = argparse.ArgumentParser(description='Streamlining an Essence Spec')
 parser.add_argument('working_directory', type=str,
                     help='Working Directory')
-parser.add_argument('essence_spec', type=str,
-                    help='Essence Specification file')
-parser.add_argument('training_instance_dir', type=str,
+parser.add_argument('instance_dir', type=str,
                     help='Directory containing instances for streamliner evaluation')
-parser.add_argument('info_full_file', type=str,
-                    help='File containing info on training instances')
-parser.add_argument('configuration', type=str,
-                    help='Yaml configuration')
 
 args = parser.parse_args()
-essence_spec = args.essence_spec
 working_directory = args.working_directory
+instance_dir = args.instance_dir
+essence_spec = f'{working_directory}/model.essence'
 
-with open(args.configuration, 'r') as conf_file:
+with open(f'{working_directory}/conf.yaml', 'r') as conf_file:
     conf = yaml.safe_load(conf_file)
+    conf['working_directory'] = working_directory
+    conf['instance_directory'] = instance_dir
 
 # Parse out the training stats based upon the selected training instances
-baseModelStats = BaseModelStats(f"{working_directory}/BaseModelResults.csv", args.training_instance_dir,
-                                args.info_full_file, SolverFactory.get_solver(conf.get('solver')))
-baseModelStats.evaluate_training_instances(essence_spec, conf)
+baseModelStats = BaseModelStats(f"{working_directory}/BaseModelResults.csv", instance_dir,
+                                f"{working_directory}/info-full.csv", SolverFactory.get_solver(conf.get('solver')))
+baseModelStats.evaluate_training_instances(f'{working_directory}/model.essence', conf)
 
 streamlinerModelStats = StreamlinerModelStats(f"{working_directory}/StreamlinerModelStats.csv",
                                               SolverFactory.get_solver(conf.get('solver')))

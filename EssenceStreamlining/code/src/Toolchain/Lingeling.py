@@ -47,8 +47,8 @@ def execute(output_file, stats):
     return ['lingeling', '-v', f'--seed={random_seed}', output_file]
 
 
-def parse_output(output) -> Dict[str, str]:
-    output = output.decode('ascii')
+def parse_std_out(out, instance_stats) -> Dict[str, str]:
+    output = out.decode('ascii')
     stats = {
         'satisfiable': False
     }
@@ -64,8 +64,14 @@ def parse_output(output) -> Dict[str, str]:
 
         if 's UNSATISFIABLE' in line:
             stats['satisfiable'] = False
+
+    instance_stats.add_solver_output(stats)
+    instance_stats.set_solver_name(get_solver_name())
+    instance_stats.set_satisfiable(stats['satisfiable'])
     return stats
 
+def parse_std_err(out, instance_stats):
+    return
 
 def get_stat_names():
     return ['solver_satisfiable', 'solver_conflicts', 'solver_ternaries', 'solver_binaries',

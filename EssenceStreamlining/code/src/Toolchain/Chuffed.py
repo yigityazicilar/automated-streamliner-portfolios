@@ -1,5 +1,5 @@
 from typing import Dict
-
+import sys
 
 def get_solver_name():
     return 'chuffed'
@@ -30,21 +30,30 @@ def execute(output_file, stats):
     return ['fzn-chuffed', '-v', '-f', '--rnd-seed', random_seed, output_file]
 
 
-def parse_output(output) -> Dict[str, str]:
-    output = output.decode('ascii')
+def parse_std_out(out, instance_stats) -> Dict[str, str]:
+    output = out.decode('ascii')
     stats = {
         'satisfiable': True
     }
-    for line in output.splitlines():
-        if '%%%mzn-stat' in line:
-            line_split = line.split(": ")[1].split("=")
-            stats[line_split[0]] = line_split[1]
+    if not output:
+        stats['satisfiable'] = False
+    else:
+        for line in output.splitlines():
+            if '%%%mzn-stat' in line:
+                line_split = line.split(": ")[1].split("=")
+                stats[line_split[0]] = line_split[1]
 
-        if '=====UNSATISFIABLE=====' in line:
-            stats['satisfiable'] = False
+            if '=====UNSATISFIABLE=====' in line:
+                stats['satisfiable'] = False
+
+    instance_stats.add_solver_output(stats)
+    instance_stats.set_solver_name(get_solver_name())
+    instance_stats.set_satisfiable(stats['satisfiable'])
 
     return stats
 
+def parse_std_err(out, instance_stats):
+    return
 
 def get_stat_names():
     return ['solver_satisfiable', 'solver_backjumps', 'solver_baseMem',

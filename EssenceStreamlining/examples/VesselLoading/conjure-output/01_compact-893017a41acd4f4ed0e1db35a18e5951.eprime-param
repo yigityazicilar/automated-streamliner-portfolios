@@ -1,0 +1,20 @@
+language ESSENCE' 1.0
+
+letting n_containers be 28
+letting deck_width be 22
+letting deck_length be 89
+letting n_classes be 10
+letting width_Function1D be
+        [2, 14, 19, 10, 5, 22, 21, 7, 7, 13, 16, 18, 2, 10, 9, 22, 19, 15, 1, 13, 17, 15, 18, 8, 16, 4, 19, 22;
+             int(1..28)]
+letting length_Function1D be
+        [1, 1, 1, 1, 1, 4, 11, 1, 1, 2, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 3, 1, 1, 1, 1, 1, 10, 9; int(1..28)]
+letting class_Function1D be
+        [5, 10, 9, 10, 3, 10, 4, 7, 10, 8, 4, 1, 4, 2, 9, 4, 5, 10, 6, 4, 6, 6, 1, 10, 2, 7, 1, 9; int(1..28)]
+letting separation_FunctionAsRelationR3_RelationAsSetR3_ExplicitR3_1_Explicit be
+        ([] : `matrix indexed by [int(), int()] of int`)
+letting separation_FunctionAsRelationR3_RelationAsSetR3_ExplicitR3_2 be ([] : `matrix indexed by [int()] of int`)
+letting fin1 be 28
+letting fin2 be 28
+letting fin3 be 28
+letting fin4 be 0

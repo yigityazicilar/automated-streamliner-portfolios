@@ -25,7 +25,14 @@ def generate_streamlined_models(essence_spec: str, streamliner_combination: str,
     return glob.glob(f'{output_dir}/*.eprime')
 
 
-def translate_essence_param(eprime_model: str, essence_param: str, output_eprime_param: str):
+def translate_essence_param(instance_dir: str, eprime_model: str, essence_param: str, output_eprime_param: str):
     return ['conjure', 'translate-parameter', f'--eprime={eprime_model}',
-            f'--essence-param=./TrainingParams/{essence_param}',
+            f'--essence-param={instance_dir}/{essence_param}',
             f'--eprime-param={output_eprime_param}']
+
+
+def parse_std_out(out, instance_stats):
+    return
+
+def parse_std_err(out, instance_stats):
+    return

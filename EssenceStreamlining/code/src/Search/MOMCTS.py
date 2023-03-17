@@ -19,6 +19,8 @@ class MOMCTS:
     def __init__(self, essence_spec, training_results: Type[pd.DataFrame], eval,
                  conf, streamliner_model_stats):
         self.essence_spec = essence_spec
+        self.working_directory = conf.get('working_directory')
+        self.instance_dir = conf.get('instance_directory')
         self.training_results = training_results
         self.eval = eval
         # Generate the set of streamliners for the essence spec
@@ -69,6 +71,7 @@ class MOMCTS:
             # Get streamliners that we can combine with our current combination
             possible_adjacent_combinations: Set[str] = self._streamliner_state.get_possible_adajacent_combinations(
                 current_combination)
+            print(possible_adjacent_combinations)
 
             combination_str_repr: str = self._streamliner_state.get_streamliner_repr_from_set(current_combination)
 
@@ -112,10 +115,13 @@ class MOMCTS:
             if len(results) >= len(self.training_results['Instance']):
                 return base_results, True
 
-        generated_models = Conjure.generate_streamlined_models(self.essence_spec, new_combination)
-
+        generated_models = Conjure.generate_streamlined_models(self.essence_spec, new_combination,
+                                                               output_dir=f"{self.working_directory}/conjure-output")
         if len(generated_models) == 1:
-            streamlinerEval = SingleModelStreamlinerEvaluation(generated_models[0], self.training_results['Instance'],
+            logging.info(generated_models)
+            streamlinerEval = SingleModelStreamlinerEvaluation(generated_models[0], self.working_directory,
+                                                               self.instance_dir,
+                                                               self.training_results['Instance'],
                                                                self.conf.get('solver'),
                                                                self.training_results,
                                                                self.conf.get('executor').get('num_cores'), 900)
