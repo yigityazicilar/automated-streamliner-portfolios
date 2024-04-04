@@ -7,7 +7,7 @@ from Toolchain.StageTimeout import StageTimeout
 import threading
 import subprocess
 from subprocess import TimeoutExpired
-import sys
+import sys, os, math
 
 class Stage:
 
@@ -16,7 +16,7 @@ class Stage:
                  parse_std_out_callable,
                  parse_std_err_callable,
                  args):
-        logging.info(f"Stagle callable {stage_callable}")
+        logging.info(f"Stage callable {stage_callable}")
         self.name = name
         self.stage_callable = stage_callable
         self.args = args
@@ -33,7 +33,7 @@ class Pipeline:
         self.eprime_model = eprime_model
         self.working_directory = working_directory
         self.instance_dir = instance_dir
-        raw_eprime_model = eprime_model.split(".")[0]
+        raw_eprime_model = os.path.basename(eprime_model).split(".")[0]
         self.total_time = total_time
         self.essence_param_file = essence_param_file
         self.raw_instance = self.essence_param_file.split("/")[-1].split(".")[0]
@@ -59,7 +59,7 @@ class Pipeline:
 
                 if outs:
                     stage.parse_std_out(outs, instance_stats)
-                    logging.debug(outs)
+                    # logging.debug(outs)
                 if errs:
                     stage.parse_std_err(errs, instance_stats)
                     logging.debug(errs)
@@ -80,7 +80,7 @@ class Pipeline:
 
     def _call(self, stage, instance_stats):
         command = stage.stage_callable(*stage.args)
-        runsolver_command = runsolver.execute(command, int(self.total_time), threading.get_ident(), stage.get_name())
+        runsolver_command = runsolver.execute(command, int(math.ceil(self.total_time)), threading.get_ident(), stage.get_name())
         logging.debug(f"Executing {runsolver_command} on thread {threading.get_ident()}")
 
         outs, errs = self._run_stage(stage, runsolver_command, instance_stats)

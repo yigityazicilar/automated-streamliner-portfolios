@@ -25,8 +25,8 @@ class SingleModelStreamlinerEvaluation:
     def generate_pipeline(self, training_instance, eprime_model, total_time, stats):
         logging.debug(f"Generating pipeline for {training_instance} and model {eprime_model}")
 
-        # if not total_time:
-        total_time = self.training_stats[self.training_stats['Instance'] == training_instance]['TotalTime'] * 1.5
+        if not total_time:
+            total_time = self.training_stats[self.training_stats['Instance'] == training_instance]['TotalTime'] * 1.5
         return Pipeline.Pipeline(eprime_model, self.working_directory, self.instance_dir, training_instance, self.solver, Event(), total_time, stats)
 
     def _default_callback(self, instance, data):
@@ -35,8 +35,7 @@ class SingleModelStreamlinerEvaluation:
     def _default_err_callback(self, instance, err):
         logging.exception(err)
 
-    def execute(self, callback=_default_callback, error_callback=_default_err_callback) -> Dict[
-        str, Type[InstanceStats.InstanceStats]]:
+    def execute(self, callback=_default_callback, error_callback=_default_err_callback) -> Dict[str, Type[InstanceStats.InstanceStats]]:
         mappings = {}
         for instance in self.training_instances:
             mappings[instance] = self.generate_pipeline(instance, self.model, self.total_time,

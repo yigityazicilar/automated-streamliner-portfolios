@@ -180,12 +180,19 @@ class HydraEval():
     def _objective_values(self, results: Dict[str, Type[InstanceStats.InstanceStats]],
                           training_results: Type[pd.DataFrame]) -> Dict[str, object]:
         applicability = sum([int(results[x].satisfiable()) for x in results]) / len(results)
+        print(f"Applicability: {applicability}")
 
         total_solving_time = sum([results[x].solver_time() for x in results if results[x].satisfiable()])
+        print(f"Total Solving Time: {total_solving_time}")
+        print(f"Training Results:\n{training_results}")
+        print(f"Results:\n{results}")
+
         reductions = [
-            (training_results[training_results['Instance'] == x]['solver_time'].values[0] - results[x].solver_time()) /
-            training_results[training_results['Instance'] == x]['solver_time'].values[0] for x in results if
-            results[x].satisfiable()]
+            (float(training_results[training_results['Instance'] == x]['solver_time'].values[0]) - results[x].solver_time()) /
+            float(training_results[training_results['Instance'] == x]['solver_time'].values[0]) for x in results if
+            results[x].satisfiable()
+        ]
+        print(f"Reductions: {reductions}")
         satisfiable_instances = set([x for x in results if results[x].satisfiable()])
         base_total_time = training_results[training_results['Instance'].isin(satisfiable_instances)][
             'solver_time'].sum()

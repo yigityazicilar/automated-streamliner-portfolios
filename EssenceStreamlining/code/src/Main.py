@@ -33,8 +33,8 @@ with open(f'{working_directory}/conf.yaml', 'r') as conf_file:
     conf['instance_directory'] = instance_dir
 
 # Parse out the training stats based upon the selected training instances
-baseModelStats = BaseModelStats(f"{working_directory}/BaseModelResults.csv", instance_dir,
-                                f"{working_directory}/info-full.csv", SolverFactory.get_solver(conf.get('solver')))
+baseModelStats = BaseModelStats(f"{working_directory}/BaseModelResults.csv", working_directory, instance_dir,
+                                SolverFactory.get_solver(conf.get('solver')))
 baseModelStats.evaluate_training_instances(f'{working_directory}/model.essence', conf)
 
 streamlinerModelStats = StreamlinerModelStats(f"{working_directory}/StreamlinerModelStats.csv",

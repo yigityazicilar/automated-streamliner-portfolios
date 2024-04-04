@@ -1,5 +1,5 @@
 from typing import Dict
-import sys
+import sys, os
 
 def get_solver_name():
     return 'chuffed'
@@ -10,11 +10,11 @@ def get_savilerow_flag():
 
 
 def get_savilerow_output_flag():
-    return "-out-chuffed"
+    return "-out-flatzinc"
 
 
 def get_savilerow_output_file(eprime_model, raw_instance):
-    raw_eprime_model = eprime_model.split(".")[0]
+    raw_eprime_model = os.path.basename(eprime_model).split(".")[0]
     return f'{raw_eprime_model}-{raw_instance}.fzn'
 
 

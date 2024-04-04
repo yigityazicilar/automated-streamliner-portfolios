@@ -25,7 +25,11 @@ class StreamlinerModelStats:
 
         for key, value in result.solver_stats().items():
             combined_keys[f"solver_{key}"] = value
-        self.streamliner_model_stats = self.streamliner_model_stats.append(combined_keys, ignore_index=True)
+        combined_keys_df = pd.DataFrame(combined_keys, index=[0])
+        if self.streamliner_model_stats.empty:
+            self.streamliner_model_stats = combined_keys_df
+        else:
+            self.streamliner_model_stats = pd.concat([self.streamliner_model_stats, combined_keys_df], ignore_index=True)
         self.streamliner_model_stats.to_csv(f'{self.streamliner_model_stats_file}.bak', index=False)
         os.rename(f'{self.streamliner_model_stats_file}.bak', self.streamliner_model_stats_file)
 

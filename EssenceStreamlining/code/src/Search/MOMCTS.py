@@ -59,6 +59,7 @@ class MOMCTS:
                 logging.info("Cached result")
             else:
                 iteration += 1
+                print(f"ON ITERATION {iteration} OUT OF {self.conf.get('mcts').get('num_iterations')}")
             logging.info(iteration)
             if iteration >= self.conf.get('mcts').get('num_iterations'):
                 return
@@ -71,7 +72,7 @@ class MOMCTS:
             # Get streamliners that we can combine with our current combination
             possible_adjacent_combinations: Set[str] = self._streamliner_state.get_possible_adajacent_combinations(
                 current_combination)
-            print(possible_adjacent_combinations)
+            # print(possible_adjacent_combinations)
 
             combination_str_repr: str = self._streamliner_state.get_streamliner_repr_from_set(current_combination)
 
@@ -124,13 +125,13 @@ class MOMCTS:
                                                                self.training_results['Instance'],
                                                                self.conf.get('solver'),
                                                                self.training_results,
-                                                               self.conf.get('executor').get('num_cores'), 900)
+                                                               self.conf.get('executor').get('num_cores'), None)
             callback = partial(self.streamliner_model_stats.callback, new_combination)
             # We now need to parse these results into some format that we can use as a reference point
             base_results = streamlinerEval.execute(callback=callback)
 
-            for instance, result in base_results.items():
-                print(result.total_time())
+            # for _, result in base_results.items():
+            #     print(result.total_time())
 
             return base_results, False
 

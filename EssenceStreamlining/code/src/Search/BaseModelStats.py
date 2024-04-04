@@ -10,15 +10,18 @@ import sys
 
 class BaseModelStats:
 
-    def __init__(self, base_stats_file, training_instance_dir, info_full_file, solver):
+    def __init__(self, base_stats_file, working_dir, training_instance_dir, solver):
         self.base_stats_file = base_stats_file
         self.training_instances = [instance.split("/")[-1] for instance in
                                    glob.glob(f'{training_instance_dir}/*.param')]
-        self.info_full = pd.read_csv(info_full_file)
+        self.info_full = pd.read_csv(base_stats_file)
         self.training_df = self._load_base_stats(base_stats_file, solver)
+        self.working_dir = working_dir
+        self.instance_dir = training_instance_dir
         self.solver = solver
 
     def _callback(self, instance, result):
+        logging.debug(f"Callback for {instance} run. Stage {result.get_stages()}.")
         instance_stages = result.get_stages()
         combined_keys = {'Instance': instance.split("/")[-1], 'TotalTime': result.total_time(),
                          'Satisfiable': result.satisfiable(), 'Killed': result.killed(),
@@ -29,12 +32,15 @@ class BaseModelStats:
 
         for key, value in result.solver_stats().items():
             combined_keys[f"solver_{key}"] = value
-        self.training_df = self.training_df.append(combined_keys, ignore_index=True)
+        combined_keys_df = pd.DataFrame(combined_keys, index=[0])
+        if self.training_df.empty:
+            self.training_df = combined_keys_df
+        else:
+            self.training_df = pd.concat([self.training_df, combined_keys_df], ignore_index=True)
         # logging.info("Callback:", combined_keys)
         self.training_df.to_csv(self.base_stats_file, index=False)
 
     def _load_base_stats(self, output_file, solver):
-        print(output_file)
         if os.path.exists(output_file):
             self.training_df = pd.read_csv(output_file)
             self.training_df = self.training_df[self.training_df['Instance'].isin(self.training_instances)]
@@ -54,18 +60,17 @@ class BaseModelStats:
     def evaluate_training_instances(self, essence_spec, conf):
         # Evaluate the base specification across the training instances
         base_combination = ''
-        self.info_full['md5checksum'] = self.info_full['md5checksum'].map('{}.param'.format)
-        training_stats = self.info_full[self.info_full['md5checksum'].isin([x for x in self.training_instances])]
-        training_stats = training_stats.rename(columns={'md5checksum': 'Instance'})
-        training_stats['TotalTime'] = 4000
+        training_stats = self.info_full[self.info_full['Instance'].isin([x for x in self.training_instances])]
+        training_stats = training_stats.assign(TotalTime=4000)
         instances_to_eval = set(self.training_instances) - set([x.split("/")[-1] for x in self.training_df['Instance']])
         if not instances_to_eval:
             return self.training_df
 
         generated_models = Conjure.generate_streamlined_models(essence_spec, base_combination)
-        streamlinerEval = SingleModelStreamlinerEvaluation(generated_models[0], instances_to_eval, conf.get('solver'),
-                                                           training_stats, conf.get('executor').get('num_cores'), 900)
-        streamlinerEval.execute(self._callback, lambda instance, err: logging.exception(err))
+        streamlinerEval = SingleModelStreamlinerEvaluation(generated_models[0], self.working_dir, self.instance_dir,
+                                                           instances_to_eval, conf.get('solver'),
+                                                           training_stats, conf.get('executor').get('num_cores'), 4000 * 1.5)
+        streamlinerEval.execute(self._callback, lambda _, err: logging.exception(err))
 
         if len(self.training_df['Instance'].unique()) != len(self.training_instances):
             logging.error("Length of base training dir does not match number of training instances")

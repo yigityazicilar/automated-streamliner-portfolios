@@ -13,7 +13,7 @@ def execute(command, total_time, thread_id, stage_name):
     return ['runsolver', '-v', output_file, '-d 0', f'-W {total_time}', '-w /dev/null'] + command
 
 
-pattern = re.compile('runsolver used ([0-9].[0-9]*)')
+pattern = re.compile(r'runsolver used ([0-9].[0-9]*)')
 
 '''
 # WCTIME: wall clock time in seconds
@@ -35,12 +35,12 @@ MEMOUT=false
 '''
 
 patterns = [
-    ('WallClockTime', re.compile('WCTIME=([0-9]*.[0-9]*|0|[0-9]*)')),
-    ('CPUTime', re.compile('CPUTIME=([0-9]*.[0-9]*|0|[0-9]*)')),
-    ('UserTime', re.compile('USERTIME=([0-9]*.[0-9]*|0|[0-9]*)')),
-    ('SystemTime', re.compile('SYSTEMTIME=([0-9]*.[0-9]*|0|[0-9]*)')),
-    ('CPUUsage', re.compile('CPUUSAGE=([0-9]*.[0-9]*|0|[0-9]*)')),
-    ('Timeout', re.compile('TIMEOUT=(false|true)'))
+    ('WallClockTime', re.compile(r'WCTIME=([0-9]*.[0-9]*|0|[0-9]*)')),
+    ('CPUTime', re.compile(r'CPUTIME=([0-9]*.[0-9]*|0|[0-9]*)')),
+    ('UserTime', re.compile(r'USERTIME=([0-9]*.[0-9]*|0|[0-9]*)')),
+    ('SystemTime', re.compile(r'SYSTEMTIME=([0-9]*.[0-9]*|0|[0-9]*)')),
+    ('CPUUsage', re.compile(r'CPUUSAGE=([0-9]*.[0-9]*|0|[0-9]*)')),
+    ('Timeout', re.compile(r'TIMEOUT=(false|true)'))
 ]
 
 
@@ -102,8 +102,6 @@ def grab_runsolver_stats(output_file):
     # logging.info(f"Output {output}")
     matches = {}
     for line in output.splitlines():
-        print(line)
-
         # if 'Maximum wall clock time exceeded' in line:
         #     matches['time_out'] = True
 

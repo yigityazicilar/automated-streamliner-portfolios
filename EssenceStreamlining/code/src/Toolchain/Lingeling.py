@@ -1,20 +1,20 @@
 from typing import Dict
 import re
-import logging
+import logging, os
 
 patterns = [
-    ('conflicts', re.compile('([0-9]*) conflicts')),
-    ('ternaries', re.compile('([0-9]*) ternaries')),
-    ('binaries', re.compile('([0-9]*) binaries')),
-    ('iterations', re.compile('([0-9]*) iterations')),
-    ('reductions', re.compile('([0-9]*) reductions')),
-    ('restarts', re.compile('([0-9]*) restarts')),
-    ('decisions', re.compile('([0-9]*) decisions')),
-    ('propagations', re.compile('([0-9]*) propagations')),
-    ('percentageSimplifying', re.compile('([0-9]*)% simplifying')),
-    ('percentageSearch', re.compile('([0-9]*)% search')),
-    ('time', re.compile('([0-9]*.[0-9]*|0|0.0) seconds')),
-    ('randomSeed', re.compile('--seed=([0-9]*)'))
+    ('conflicts', re.compile(r'([0-9]*) conflicts')),
+    ('ternaries', re.compile(r'([0-9]*) ternaries')),
+    ('binaries', re.compile(r'([0-9]*) binaries')),
+    ('iterations', re.compile(r'([0-9]*) iterations')),
+    ('reductions', re.compile(r'([0-9]*) reductions')),
+    ('restarts', re.compile(r'([0-9]*) restarts')),
+    ('decisions', re.compile(r'([0-9]*) decisions')),
+    ('propagations', re.compile(r'([0-9]*) propagations')),
+    ('percentageSimplifying', re.compile(r'([0-9]*)% simplifying')),
+    ('percentageSearch', re.compile(r'([0-9]*)% search')),
+    ('time', re.compile(r'([0-9]*.[0-9]*|0|0.0) seconds')),
+    ('randomSeed', re.compile(r'--seed=([0-9]*)'))
 ]
 
 
@@ -31,7 +31,7 @@ def get_savilerow_output_flag():
 
 
 def get_savilerow_output_file(eprime_model, raw_instance):
-    raw_eprime_model = eprime_model.split(".")[0]
+    raw_eprime_model = os.path.basename(eprime_model).split(".")[0]
     return f'{raw_eprime_model}-{raw_instance}.dimacs'
 
 
