@@ -88,7 +88,7 @@ class MOMCTS:
                 return current_combination, set_diff
             # Else move down the Lattice and continue to select
             else:
-                node = self.selection_class.select(current_combination, adjacent_nodes)
+                node = self.selection_class.select(self._lattice, current_combination, adjacent_nodes)
                 current_combination.add(node)
 
     def expansion(self, current_node_combination: Set[str], possible_adjacent_nodes: List[str]) -> str:

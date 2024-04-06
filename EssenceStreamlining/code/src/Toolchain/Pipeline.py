@@ -80,7 +80,7 @@ class Pipeline:
 
     def _call(self, stage, instance_stats):
         command = stage.stage_callable(*stage.args)
-        runsolver_command = runsolver.execute(command, int(math.ceil(self.total_time)), threading.get_ident(), stage.get_name())
+        runsolver_command = runsolver.execute(command, max(int(math.ceil(self.total_time)), 1), threading.get_ident(), stage.get_name())
         logging.debug(f"Executing {runsolver_command} on thread {threading.get_ident()}")
 
         outs, errs = self._run_stage(stage, runsolver_command, instance_stats)
